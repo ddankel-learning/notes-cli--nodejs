@@ -1,7 +1,13 @@
 const yargs = require("yargs");
 const notes = require("./src/notes");
+const isPkg = require("./src/is_pkg");
+const packageJson = require("./package.json");
 
-yargs.scriptName("node app.js");
+if (isPkg()) {
+  yargs.scriptName(packageJson.name);
+} else {
+  yargs.scriptName("node " + require("path").basename(__filename));
+}
 
 // ADD command
 yargs.command({
