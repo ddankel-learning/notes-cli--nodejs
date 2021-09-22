@@ -62,5 +62,6 @@ yargs.command({
   },
 });
 
+yargs.demandCommand();
 yargs.help();
 yargs.parse();
