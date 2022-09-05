@@ -5,3 +5,5 @@ dist/
 data/
 
 .notes_data.json
+
+.DS_Store

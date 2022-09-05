@@ -54,8 +54,8 @@ Default settings (build for node14, output to /dist) are configured in package.j
 
 ## Concerns
 
-1. The script creates `.notes_data.json` in the directory it is executed from and stores the notes there. Were this script to be made production ready, a more appropriate centralized location (like the user's home directory) would be used.
-2. The executable built by `pkg` is prohibitively large. Were this script to see production use, further work would need to be done to reduce it to a more manageable size. See: [https://github.com/ddankel/notes-cli--nodejs/issues/1](https://github.com/ddankel/notes-cli--nodejs/issues/1)
+1. The script creates `.notes_data.json` in the directory it is executed from and stores the notes there. Were this script to be made production ready, a more appropriate centralized location (like the user's profile) would be used.
+2. The executable built by `pkg` is prohibitively large. Were this script to see production use, further work would need to be done to reduce it to a more manageable size. See: [https://github.com/ddankel-learning/notes-cli--nodejs/issues/1](https://github.com/ddankel-learning/notes-cli--nodejs/issues/1)
 
 ## License
 
@@ -63,4 +63,4 @@ Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more infor
 
 ## Contact
 
-Project Link: [https://github.com/ddankel/notes-cli--nodejs](https://github.com/ddankel/notes-cli--nodejs)
+Project Link: [https://github.com/ddankel-learning/notes-cli--nodejs](https://github.com/ddankel-learning/notes-cli--nodejs)
